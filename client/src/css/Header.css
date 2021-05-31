@@ -1,0 +1,81 @@
+.header {
+  position: relative;
+  display: inline;
+}
+
+.header__logo {
+  width: 6rem;
+  float: left;
+}
+
+.header__heading {
+  float: left;
+  margin-left: 3rem;
+  padding-top: 0.5rem;
+  font-size: 2rem;
+}
+
+.header__nav {
+  float: right;
+  text-decoration: none;
+  font-size: 1.5rem;
+  top: 0;
+  padding-top: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header__navlink {
+  float: left;
+  margin: 0 1rem;
+}
+
+.btn-blue {
+  background-color: #1f497d;
+  color: #fff;
+  padding: 1rem 2.5rem;
+  border-radius: 5rem;
+  margin-top: -1rem;
+}
+
+.header__waves {
+  position: fixed;
+  bottom: 0;
+  left: 0%;
+  width: 100vw;
+  height: 80vh;
+}
+
+.header__model {
+  position: fixed;
+  bottom: 0;
+  right: 15rem;
+  height: 75vh;
+}
+
+.card-container {
+  position: fixed;
+  bottom: 20rem;
+  display: grid;
+  row-gap: 5rem;
+  column-gap: 5rem;
+  place-items: center;
+  grid-template-columns: 20vw 20vw;
+  grid-template-rows: auto auto auto;
+  width: 60vw;
+  height: 60vh;
+}
+
+.card-container :last-child {
+  grid-column: span 2;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+}

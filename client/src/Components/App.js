@@ -5,6 +5,8 @@ import 'regenerator-runtime/runtime.js'
 
 import '../css/App.css'
 
+import Header from './Header'
+
 import { actions } from '../store'
 
 function App() {
@@ -19,8 +21,7 @@ function App() {
 
   return (
     <div>
-      <h1>{title}</h1>
-      <img src='/public/images/react.png' />
+      <Header />
     </div>
   )
 }
