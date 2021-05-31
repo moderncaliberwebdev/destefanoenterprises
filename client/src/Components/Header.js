@@ -7,14 +7,30 @@ import Card from './Card'
 function Header() {
   return (
     <header className='header'>
-      <img src='/public/images/logo.png' alt='logo' className='header__logo' />
-      <h1 className='header__heading'>DeStefano Enterprises, LLC</h1>
+      <a href='/'>
+        <img
+          src='/public/images/logo.png'
+          alt='logo'
+          className='header__logo'
+        />
+      </a>
+      <a href='/'>
+        <h1 className='header__heading'>DeStefano Enterprises, LLC</h1>
+      </a>
       <nav className='header__nav'>
         <ul>
-          <li className='header__navlink'>Home</li>
-          <li className='header__navlink'>Partners</li>
-          <li className='header__navlink'>About</li>
-          <li className='header__navlink btn-blue'>Contact</li>
+          <a href='/'>
+            <li className='header__navlink link-1'>Home</li>
+          </a>
+          <a href='/'>
+            <li className='header__navlink link-2'>Partners</li>
+          </a>
+          <a href='/'>
+            <li className='header__navlink link-3'>About</li>
+          </a>
+          <a href='/'>
+            <li className='header__navlink btn-blue'>Contact</li>
+          </a>
         </ul>
       </nav>
       <img
@@ -31,19 +47,27 @@ function Header() {
         <Card
           title='PA Dutch Builders'
           image='/public/images/padutchbuilders.png'
+          url='http://padutchbuilders.com'
         />
         <Card
           title='PA Dutch Auctions'
           image='/public/images/padutchauctions.png'
+          url='http://padutchauctions.com'
         />
-        <Card title='Old Amish Remedies' image='/public/images/oldamish.png' />
+        <Card
+          title='Old Amish Remedies'
+          image='/public/images/oldamish.png'
+          url='http://oldamishremedies.com'
+        />
         <Card
           title='Billy Dean and the Woodland Girls'
           image='/public/images/billydean.png'
+          url='https://billydeanandthewoodlandgirls.com/'
         />
         <Card
           title='PA Dutch Contractors'
           image='/public/images/padutchcontractors.png'
+          url='http://padutchcontractors.com'
         />
       </div>
       <footer className='footer'>
