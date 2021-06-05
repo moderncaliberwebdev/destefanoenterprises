@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
 import '../css/Header.css'
 
@@ -6,7 +7,7 @@ import Card from './Card'
 
 function Header() {
   return (
-    <header className='header'>
+    <header className='header' style={{ padding: '2rem 6rem' }}>
       <a href='/'>
         <img
           src='/public/images/logo.png'
@@ -19,18 +20,19 @@ function Header() {
       </a>
       <nav className='header__nav'>
         <ul>
-          <a href='/'>
+          <Link to='/'>
             <li className='header__navlink link-1'>Home</li>
-          </a>
-          <a href='/'>
+          </Link>
+
+          <Link to='/partners'>
             <li className='header__navlink link-2'>Partners</li>
-          </a>
-          <a href='/'>
+          </Link>
+          <Link to='/about'>
             <li className='header__navlink link-3'>About</li>
-          </a>
-          <a href='/'>
+          </Link>
+          <Link to='/contact'>
             <li className='header__navlink btn-blue'>Contact</li>
-          </a>
+          </Link>
         </ul>
       </nav>
       <img

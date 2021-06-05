@@ -5,6 +5,7 @@ module.exports = {
   // the output bundle won"t be optimized for production but suitable for development
   mode: 'development',
   devServer: {
+    historyApiFallback: true,
     proxy: {
       '/api': 'http://127.0.0.1:3000',
     },
@@ -16,6 +17,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     // the filename of the JS bundle will be bundle.js
     filename: 'bundle.js',
+    publicPath: '/',
   },
   module: {
     rules: [

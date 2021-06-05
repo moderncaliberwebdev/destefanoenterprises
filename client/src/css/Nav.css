@@ -1,0 +1,7 @@
+.navbar {
+  margin: -2rem -6rem;
+  padding: 2rem 6rem;
+  background-color: #f8fbfd;
+  height: 7rem;
+  box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,36 @@
+.partner-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30rem;
+  height: 20rem;
+  padding: 3rem;
+  margin: 2rem;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #989898;
+  transition: all 0.3s;
+}
+
+.partner-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0.5rem 0.5rem 0.7rem rgba(0, 0, 0, 0.1);
+}
+
+.partner-card__image {
+  height: 7rem;
+  display: block;
+  top: 0;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.partner-card__title {
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #1f497d;
+}
