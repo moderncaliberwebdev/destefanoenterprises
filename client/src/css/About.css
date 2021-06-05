@@ -1,0 +1,37 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about__heading {
+  opacity: 0;
+  margin: 5rem 0 3rem 0;
+  text-align: center;
+  font-size: 3rem;
+  animation: moveUp 0.6s 0.25s ease-in forwards;
+}
+
+.about__container {
+  opacity: 0;
+  background-color: #fff;
+  color: #505050;
+  margin: 3rem;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 5px;
+  border: 1px solid #989898;
+  width: 40rem;
+  animation: moveLeft 0.6s 0.25s ease-in forwards;
+}
+
+.about__h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.about__text-content {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
