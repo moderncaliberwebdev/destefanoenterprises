@@ -63,6 +63,7 @@ input[type='submit'] {
   border-style: none;
   color: #fff;
   background-color: #1f497d;
+  cursor: pointer;
 }
 
 #themessage {

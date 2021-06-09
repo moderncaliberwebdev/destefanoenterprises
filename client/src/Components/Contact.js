@@ -18,7 +18,7 @@ function Contact() {
   const formSubmit = (e) => {
     e.preventDefault()
 
-    if (themessage.value === '') {
+    if (themessage.value !== 'themessageforspamrobotsbecausetheysuck') {
       formResponse.textContent = 'Sending...'
       axios
         .get(
@@ -63,13 +63,19 @@ function Contact() {
           placeholder='the message'
           id='themessage'
           name='msg'
+          value='themessageforspamrobotsbecausetheysuck'
         />
         <textarea
           placeholder='Message'
           id='input-message'
           name='message'
         ></textarea>
-        <input type='submit' value='Send Message' onClick={formSubmit} />
+        <input
+          type='submit'
+          value='Send Message'
+          id='message'
+          onClick={formSubmit}
+        />
       </div>
 
       <footer className='footer_copyright'>
