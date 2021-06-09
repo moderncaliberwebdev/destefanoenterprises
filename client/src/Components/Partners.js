@@ -2,12 +2,14 @@ import React from 'react'
 
 import Nav from './Nav'
 import Partner_Card from './PartnerCard'
+import Menu from './Menu'
 
 import '../css/Partners.css'
 
 function Partners() {
   return (
     <div>
+      <Menu />
       <Nav />
       <div className='partners'>
         <h1 className='partners__heading'>Our Partners</h1>

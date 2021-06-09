@@ -1,12 +1,14 @@
 import React from 'react'
 
 import Nav from './Nav'
+import Menu from './Menu'
 
 import '../css/About.css'
 
 function About() {
   return (
     <div>
+      <Menu />
       <Nav />
       <h1 className='about__heading'>About</h1>
       <div className='about'>

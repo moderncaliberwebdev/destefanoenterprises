@@ -2,6 +2,7 @@ import React from 'react'
 import axios from 'axios'
 
 import Nav from './Nav'
+import Menu from './Menu'
 
 import '../css/Contact.css'
 
@@ -40,6 +41,7 @@ function Contact() {
 
   return (
     <div className='contact'>
+      <Menu />
       <Nav />
       <h1 className='contact__heading'>Contact</h1>
       <span className='contact__sub'>

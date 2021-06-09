@@ -4,6 +4,10 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import '../css/Nav.css'
 
 function Nav() {
+  const openMenu = () => {
+    document.getElementById('menu').style.display = 'block'
+    document.body.style.overflow = 'hidden'
+  }
   return (
     <div className='navbar'>
       <a href='/'>
@@ -30,6 +34,12 @@ function Nav() {
             <li className='header__navlink btn-blue'>Contact</li>
           </Link>
         </ul>
+        <img
+          src='/public/images/menu.png'
+          alt='menu'
+          className='header__menu'
+          onClick={openMenu}
+        />
       </nav>
     </div>
   )

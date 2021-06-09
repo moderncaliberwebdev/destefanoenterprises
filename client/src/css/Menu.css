@@ -1,0 +1,47 @@
+.menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: -2rem -6rem;
+  background-color: #1f497d;
+  z-index: 1000;
+  color: #fff;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    margin: 0;
+  }
+}
+
+.menu__x {
+  float: right;
+  margin: 3rem 6rem;
+  font-size: 2.5rem;
+}
+
+.menu__nav {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.menu__navlink {
+  color: #fff;
+  font-size: 2rem;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .menu__navlink {
+    font-size: 2.5rem;
+  }
+}
+
+.menu__navlink:hover {
+  background-color: #295c9a;
+}
