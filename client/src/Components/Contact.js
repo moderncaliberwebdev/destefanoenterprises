@@ -23,7 +23,7 @@ function Contact() {
       axios
         .get(
           //use /api for dev and take it away for prod
-          `/email?name=${name.value}&email=${email.value}&subject=${subject.value}&message=${message.value}`
+          `/api/email?name=${name.value}&email=${email.value}&subject=${subject.value}&message=${message.value}`
         )
         .then((res) => {
           const data = res.data
