@@ -18,7 +18,7 @@ function Contact() {
   const formSubmit = (e) => {
     e.preventDefault()
 
-    if (themessage.value !== 'themessageforspamrobotsbecausetheysuck') {
+    if (themessage.value === 'themessageforspamrobotsbecausetheysuck') {
       formResponse.textContent = 'Sending...'
       axios
         .get(
