@@ -159,7 +159,7 @@ Link {
 @media only screen and (max-width: 600px) {
   .header__waves {
     background-size: cover;
-    height: 90vh;
+    height: 75vh;
   }
 }
 
@@ -230,6 +230,15 @@ Link {
 @media only screen and (max-width: 500px) {
   .card-container {
     margin: 0 -2rem;
+  }
+}
+@media only screen and (max-height: 500px) {
+  .card-container-respond {
+    display: none;
+  }
+  .card-container {
+    grid-template-columns: 20rem 20rem;
+    top: 20%;
   }
 }
 
