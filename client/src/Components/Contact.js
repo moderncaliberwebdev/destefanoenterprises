@@ -7,16 +7,16 @@ import Menu from './Menu'
 import '../css/Contact.css'
 
 function Contact() {
-  const name = document.getElementById('input-name')
-  const email = document.getElementById('input-email')
-  const subject = document.getElementById('input-subject')
-  const themessage = document.getElementById('themessage')
-  const message = document.getElementById('input-message')
-  const formResponse = document.getElementById('contact__form-res')
-  const inputs = [name, email, subject, message]
-
   const formSubmit = (e) => {
     e.preventDefault()
+
+    const name = document.getElementById('input-name')
+    const email = document.getElementById('input-email')
+    const subject = document.getElementById('input-subject')
+    const themessage = document.getElementById('themessage')
+    const message = document.getElementById('input-message')
+    const formResponse = document.getElementById('contact__form-res')
+    const inputs = [name, email, subject, message]
 
     if (themessage.value == '') {
       formResponse.textContent = 'Sending...'
