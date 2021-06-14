@@ -214,7 +214,8 @@ Link {
 
 @media only screen and (max-width: 1200px) {
   .card-container {
-    height: 30vh;
+    height: 35vh;
+    row-gap: 1rem;
     grid-template-columns: 20rem 20rem;
   }
 }
