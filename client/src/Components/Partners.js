@@ -25,7 +25,7 @@ function Partners() {
             url='http://padutchauctions.com'
           />
           <Partner_Card
-            title='Old Amish Remedies'
+            title='Amish Remedies Plus'
             image='/public/images/oldamish.png'
             url='http://oldamishremedies.com'
           />

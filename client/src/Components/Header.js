@@ -71,23 +71,25 @@ function Header() {
             image='/public/images/padutchbuilders.png'
             url='http://padutchbuilders.com'
           />
+          <div className='card-container-respond'>
+            <Card
+              title='PA Dutch Auctions'
+              image='/public/images/padutchauctions.png'
+              url='http://padutchauctions.com'
+            />
+          </div>
           <Card
-            title='PA Dutch Auctions'
-            image='/public/images/padutchauctions.png'
-            url='http://padutchauctions.com'
-          />
-          <Card
-            title='Old Amish Remedies'
+            title='Amish Remedies Plus'
             image='/public/images/oldamish.png'
             url='http://oldamishremedies.com'
           />
-          <div className='card-container-respond'>
-            <Card
-              title='Billy Dean and the Woodland Girls'
-              image='/public/images/billydean.png'
-              url='https://billydeanandthewoodlandgirls.com/'
-            />
-          </div>
+
+          <Card
+            title='Billy Dean and the Woodland Girls'
+            image='/public/images/billydean.png'
+            url='https://billydeanandthewoodlandgirls.com/'
+          />
+
           <div className='card-container-respond'>
             <Card
               title='PA Dutch Contractors'
