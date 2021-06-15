@@ -39,6 +39,11 @@ function Partners() {
             image='/public/images/padutchcontractors.png'
             url='http://padutchcontractors.com'
           />
+          <Partner_Card
+            title='Pine Ridge Landscaping'
+            image='/public/images/pineridge.png'
+            url='http://pineridgelandscaping.net'
+          />
         </div>
       </div>
       <footer className='footer_copyright'>
