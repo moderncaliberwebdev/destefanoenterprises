@@ -12,7 +12,7 @@ function Partners() {
       <Menu />
       <Nav />
       <div className='partners'>
-        <h1 className='partners__heading'>Our Partners</h1>
+        <h1 className='partners__heading'>Our Companies</h1>
         <div className='partner-card-container'>
           <Partner_Card
             title='PA Dutch Builders'
@@ -39,10 +39,30 @@ function Partners() {
             image='/public/images/padutchcontractors.png'
             url='http://padutchcontractors.com'
           />
+        </div>
+        <h1 className='partners__heading'>Our Partners</h1>
+        <div className='partner-card-container'>
           <Partner_Card
             title='Pine Ridge Landscaping'
             image='/public/images/pineridge.png'
             url='http://pineridgelandscaping.net'
+          />
+          <Partner_Card title='Beaver Dam Builders, LLC' image='' url='#' />
+          <Partner_Card title='Beiler Brothers Construction' image='' url='#' />
+          <Partner_Card
+            title='Forest View Construction, LLC'
+            image=''
+            url='#'
+          />
+          <Partner_Card
+            title='Pinecraft Construction, LLC'
+            image='/public/images/pinecraft.png'
+            url='#'
+          />
+          <Partner_Card
+            title='ADS Builders, LLC'
+            image='/public/images/adsbuilders.png'
+            url='http://adsbuildersllc.com/?fbclid=IwAR3y-vPtEbSuaibHMimcgAma8DIY-ray9xPX_cT0f8zxjAtX_aF9AdBab2o'
           />
         </div>
       </div>

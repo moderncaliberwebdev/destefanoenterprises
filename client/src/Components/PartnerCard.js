@@ -6,7 +6,12 @@ function PartnerCard({ title, image, url }) {
   return (
     <div className='partner-card'>
       <a href={url}>
-        <img src={image} alt='Partner Card' className='partner-card__image' />
+        {image ? (
+          <img src={image} alt='Partner Card' className='partner-card__image' />
+        ) : (
+          ''
+        )}
+
         <h2 className='partner-card__title'>{title}</h2>
       </a>
     </div>
