@@ -42,7 +42,29 @@ function Partners() {
         </div>
         <h1 className='partners__heading'>Our Partners</h1>
         <div className='partner-card-container'>
-          <Partner_Card
+          <span className='partners__link'>
+            1. Pine Ridge Landscaping Bird In Hand, PA
+            <a href='http://pineridgelandscaping.net'> (visit website)</a>
+          </span>
+          <span className='partners__link'>
+            2. Beaver Dam Builders, LLC, Honey Brook, PA
+          </span>
+          <span className='partners__link'>
+            3. Beiler Brothers Construction, Rocks, PA
+          </span>
+          <span className='partners__link'>
+            4. Forest View Construction, LLC New Holland, PA
+          </span>
+          <span className='partners__link'>
+            5. Pinecraft Construction, LLC Leola, PA
+          </span>
+          <span className='partners__link'>
+            6. ADS Builders, LLC New Holland, PA{' '}
+            <a href='http://adsbuildersllc.com/?fbclid=IwAR3y-vPtEbSuaibHMimcgAma8DIY-ray9xPX_cT0f8zxjAtX_aF9AdBab2o'>
+              (visit website)
+            </a>
+          </span>
+          {/* <Partner_Card
             title='Pine Ridge Landscaping'
             image='/public/images/pineridge.png'
             url='http://pineridgelandscaping.net'
@@ -63,7 +85,7 @@ function Partners() {
             title='ADS Builders, LLC'
             image='/public/images/adsbuilders.png'
             url='http://adsbuildersllc.com/?fbclid=IwAR3y-vPtEbSuaibHMimcgAma8DIY-ray9xPX_cT0f8zxjAtX_aF9AdBab2o'
-          />
+          /> */}
         </div>
       </div>
       <footer className='footer_copyright'>
