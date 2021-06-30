@@ -4,6 +4,7 @@
   text-align: center;
   font-size: 3.5rem;
   animation: moveUp 0.6s 0.25s ease-in forwards;
+  color: #0b1a2c;
 }
 
 .partner-card-container {
@@ -13,6 +14,7 @@
   justify-content: center;
   animation: moveLeft 0.6s 0.25s ease-in forwards;
   margin-top: -2rem;
+  color: #0b1a2c;
 }
 .partners__link {
   display: block;
@@ -23,7 +25,7 @@
 }
 
 .partners__link a {
-  color: #1f497d;
+  color: #0b1a2c;
   cursor: pointer;
   text-decoration: underline;
   margin-left: 0.5rem;

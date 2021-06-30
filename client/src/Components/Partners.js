@@ -60,9 +60,6 @@ function Partners() {
           </span>
           <span className='partners__link'>
             6. ADS Builders, LLC New Holland, PA{' '}
-            <a href='http://adsbuildersllc.com/?fbclid=IwAR3y-vPtEbSuaibHMimcgAma8DIY-ray9xPX_cT0f8zxjAtX_aF9AdBab2o'>
-              (visit website)
-            </a>
           </span>
           {/* <Partner_Card
             title='Pine Ridge Landscaping'
