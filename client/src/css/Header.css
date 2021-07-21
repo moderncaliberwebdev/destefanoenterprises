@@ -230,6 +230,7 @@ Link {
     display: none;
   }
   .card-container {
+    row-gap: 0;
     top: 15%;
     grid-template-columns: 16rem 16rem;
   }
