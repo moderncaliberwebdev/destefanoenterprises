@@ -90,7 +90,7 @@ function Header() {
             url='https://billydeanandthewoodlandgirls.com/'
           />
 
-          <div className='card-container-respond'>
+          <div className='card-container-respond shrink'>
             <Card
               title='PA Dutch Contractors'
               image='/public/images/padutchcontractors.png'
