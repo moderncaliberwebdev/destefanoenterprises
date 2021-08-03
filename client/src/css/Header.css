@@ -183,6 +183,11 @@ Link {
     height: 20rem;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .header__model {
+    right: calc((1200px - 100vw) / -2);
+  }
+}
 
 .card-container {
   opacity: 0;
@@ -209,6 +214,14 @@ Link {
     display: none;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .shrink {
+    margin-right: 100%;
+  }
+}
+
+
 
 
 
