@@ -37,7 +37,7 @@ function About() {
           </p>
         </div>
         <div className='about__container'>
-          <h2 className='about__h2'>The Story</h2>
+          <h2 className='about__h2'>Company Mission Statement</h2>
           <p className='about__text-content'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
             mollitia, molestiae quas vel sint commodi repudiandae consequuntur
