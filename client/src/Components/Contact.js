@@ -45,7 +45,7 @@ function Contact() {
       <Nav />
       <h1 className='contact__heading'>Contact</h1>
       <span className='contact__sub'>
-        Email me with any inquiries or call at 717-826-3754. I would be happy to
+        Fill out the contact form with any inquiries. I would be happy to
         answer any questions you may have!
       </span>
       <span id='contact__form-res'></span>
