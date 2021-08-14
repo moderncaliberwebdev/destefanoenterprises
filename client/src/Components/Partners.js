@@ -50,7 +50,7 @@ function Partners() {
             2. Beaver Dam Builders, LLC, Honey Brook, PA
           </span>
           <span className='partners__link'>
-            3. Beiler Brothers Construction, Rocks, PA
+            3. Beiler Brothers Construction, Ronks, PA
           </span>
           <span className='partners__link'>
             4. Forest View Construction, LLC New Holland, PA
