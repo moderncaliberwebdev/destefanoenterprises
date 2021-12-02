@@ -5,7 +5,7 @@ import '../css/Card.css'
 function Card({ title, image, url }) {
   return (
     <div className='card'>
-      <a href={url}>
+      <a href={url} target="_blank">
         <img src={image} alt='Business Card' className='card__image' />
         <h2 className='card__title'>{title}</h2>
       </a>
