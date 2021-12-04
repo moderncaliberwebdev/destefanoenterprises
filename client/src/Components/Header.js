@@ -93,7 +93,7 @@ function Header() {
             <Card
               title='American Item'
               image='/public/images/ebay.png'
-              url='http://www.ebaystores.com/billiesantiquesandcollectibles'
+              url='https://www.ebay.com/sch/americanitem/m.html?_nkw=&_armrs=1&_ipg=&_from='
             />
           {/* </div> */}
         </div>
