@@ -50,10 +50,9 @@ function Header() {
               onClick={openMenu}
             />
           </nav>
-          </header>
+        </header>
       </div>
       <div className='flex-2'>
-
         <div className='card-container'>
           <Card
             title='PA Dutch Builders'
@@ -61,11 +60,11 @@ function Header() {
             url='http://padutchbuilders.com'
           />
           {/* <div className='card-container-respond'> */}
-            <Card
-              title='PA Dutch Auctions'
-              image='/public/images/padutchauctions.png'
-              url='http://padutchauctions.com'
-            />
+          <Card
+            title='PA Dutch Auctions'
+            image='/public/images/padutchauctions.png'
+            url='http://padutchauctions.com'
+          />
           {/* </div> */}
           <Card
             title='Amish Remedies Plus'
@@ -80,21 +79,21 @@ function Header() {
           />
 
           {/* <div className='card-container-respond shrink'> */}
-            <Card
-              title='PA Dutch Contractors'
-              image='/public/images/padutchcontractors.png'
-              url='http://padutchcontractors.com'
-            />
-            <Card
-              title='TopMyDog'
-              image='/public/images/ebay.png'
-              url='http://www.ebaystores.com/billiesantiquesandcollectibles'
-            />
-            <Card
-              title='American Item'
-              image='/public/images/ebay.png'
-              url='https://www.ebay.com/sch/americanitem/m.html?_nkw=&_armrs=1&_ipg=&_from='
-            />
+          <Card
+            title='PA Dutch Contractors'
+            image='/public/images/padutchcontractors.png'
+            url='http://padutchcontractors.com'
+          />
+          <Card
+            title='TopMyDog'
+            image='/public/images/ebay.png'
+            url='http://www.ebaystores.com/billiesantiquesandcollectibles'
+          />
+          <Card
+            title='AmericanItem'
+            image='/public/images/ebay.png'
+            url='https://www.ebay.com/sch/americanitem/m.html?_nkw=&_armrs=1&_ipg=&_from='
+          />
           {/* </div> */}
         </div>
       </div>
@@ -104,7 +103,7 @@ function Header() {
           alt='destefano businessman'
           className='header__model'
         />
-         <picture>
+        <picture>
           <source
             media='(max-width:600px)'
             srcSet='/public/images/waves-small.png'
@@ -116,9 +115,9 @@ function Header() {
           />
         </picture>
       </div>
-        <footer className='footer'>
-          Hosted by De Stefano Enterprises, LLC, all rights reserved
-        </footer>
+      <footer className='footer'>
+        Hosted by De Stefano Enterprises, LLC, all rights reserved
+      </footer>
       {/* </header> */}
     </div>
   )
