@@ -94,6 +94,11 @@ function Header() {
             image='/public/images/ebay.png'
             url='https://www.ebay.com/sch/americanitem/m.html?_nkw=&_armrs=1&_ipg=&_from='
           />
+          <Card
+            title='Eagle Force Employment Services'
+            image='/public/images/eagle.png'
+            url='https://eagleforce-jobs.vercel.app/'
+          />
           {/* </div> */}
         </div>
       </div>
