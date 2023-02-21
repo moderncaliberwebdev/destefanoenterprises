@@ -25,6 +25,11 @@ function Partners() {
             url='http://padutchauctions.com'
           />
           <Partner_Card
+            title='Eagle Force Employment Services'
+            image='/public/images/eagle.png'
+            url='https://www.eagleforceemploymentservices.com/'
+          />
+          <Partner_Card
             title='Amish Remedies Plus'
             image='/public/images/oldamish.png'
             url='http://oldamishremedies.com'
