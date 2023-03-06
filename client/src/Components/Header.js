@@ -68,7 +68,7 @@ function Header() {
           {/* </div> */}
           <Card
             title='Amish Remedies Plus'
-            image='/public/images/oldamish.png'
+            image='/public/images/logo-amish.jpg'
             url='http://oldamishremedies.com'
           />
 
