@@ -30,9 +30,14 @@ function Partners() {
             url='https://www.eagleforceemploymentservices.com/'
           />
           <Partner_Card
-            title='Amish Remedies Plus'
-            image='/public/images/logo-amish.jpg'
-            url='http://oldamishremedies.com'
+            title='Old Amish Remedies Plus'
+            image='/public/images/amish-remedies.png'
+            url='https://oldamishremediesplus.com'
+          />
+          <Partner_Card
+            title="Billie's Antiques & Collectibles"
+            image='/public/images/antiques.png'
+            url='https://www.ebay.com/str/billiesantiquesandcollectibles'
           />
           <Partner_Card
             title='Billy Dean and the Woodland Girls'
@@ -64,7 +69,10 @@ function Partners() {
             5. Pinecraft Construction, LLC Leola, PA
           </span>
           <span className='partners__link'>
-            6. ADS Builders, LLC New Holland, PA{' '}
+            6. ADS Builders, LLC New Holland, PA
+          </span>
+          <span className='partners__link'>
+            7. New England Weathervanes, Willow Street, PA
           </span>
           {/* <Partner_Card
             title='Pine Ridge Landscaping'

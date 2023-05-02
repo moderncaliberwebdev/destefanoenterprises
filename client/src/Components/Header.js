@@ -67,9 +67,9 @@ function Header() {
           />
           {/* </div> */}
           <Card
-            title='Amish Remedies Plus'
-            image='/public/images/logo-amish.jpg'
-            url='http://oldamishremedies.com'
+            title='Old Amish Remedies Plus'
+            image='/public/images/amish-remedies.png'
+            url='https://oldamishremediesplus.com'
           />
 
           <Card
@@ -93,6 +93,11 @@ function Header() {
             title='AmericanItem'
             image='/public/images/ebay.png'
             url='https://www.ebay.com/sch/americanitem/m.html?_nkw=&_armrs=1&_ipg=&_from='
+          />
+          <Card
+            title="Billie's Antiques & Collectibles"
+            image='/public/images/antiques.png'
+            url='https://www.ebay.com/str/billiesantiquesandcollectibles'
           />
           <Card
             title='Eagle Force Employment Services'
