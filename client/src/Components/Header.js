@@ -97,7 +97,7 @@ function Header() {
           <Card
             title="Billie's Antiques & Collectibles"
             image='/public/images/antiques.png'
-            url='https://www.ebay.com/str/billiesantiquesandcollectibles'
+            url='https://billies-antiques-collectibles.myshopify.com/'
           />
           <Card
             title='Eagle Force Employment Services'
