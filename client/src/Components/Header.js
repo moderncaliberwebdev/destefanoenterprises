@@ -60,11 +60,7 @@ function Header() {
             url='http://padutchbuilders.com'
           />
           {/* <div className='card-container-respond'> */}
-          <Card
-            title='PA Dutch Auctions'
-            image='/public/images/padutchauctions.png'
-            url='http://padutchauctions.com'
-          />
+
           {/* </div> */}
           <Card
             title='Old Amish Remedies Plus'
@@ -85,24 +81,19 @@ function Header() {
             url='http://padutchcontractors.com'
           />
           <Card
-            title='TopMyDog'
-            image='/public/images/ebay.png'
-            url='http://www.ebaystores.com/billiesantiquesandcollectibles'
-          />
-          <Card
             title='AmericanItem'
             image='/public/images/ebay.png'
             url='https://www.ebay.com/sch/americanitem/m.html?_nkw=&_armrs=1&_ipg=&_from='
           />
           <Card
             title="Billie's Antiques & Collectibles"
-            image='/public/images/antiques.png'
+            image='/public/images/billies.png'
             url='https://billies-antiques-collectibles.myshopify.com/'
           />
           <Card
             title='Eagle Force Employment Services'
             image='/public/images/eagle.png'
-            url='https://eagleforce-jobs.vercel.app/'
+            url='https://eagleforceemploymentservices.com/'
           />
           {/* </div> */}
         </div>

@@ -19,11 +19,7 @@ function Partners() {
             image='/public/images/padutchbuilders.png'
             url='http://padutchbuilders.com'
           />
-          <Partner_Card
-            title='PA Dutch Auctions'
-            image='/public/images/padutchauctions.png'
-            url='http://padutchauctions.com'
-          />
+
           <Partner_Card
             title='Eagle Force Employment Services'
             image='/public/images/eagle.png'
@@ -36,7 +32,7 @@ function Partners() {
           />
           <Partner_Card
             title="Billie's Antiques & Collectibles"
-            image='/public/images/antiques.png'
+            image='/public/images/billies.png'
             url='https://billies-antiques-collectibles.myshopify.com/'
           />
           <Partner_Card
@@ -53,26 +49,44 @@ function Partners() {
         <h1 className='partners__heading'>Our Partners</h1>
         <div className='partner-card-container'>
           <span className='partners__link'>
-            1. Pine Ridge Landscaping Bird In Hand, PA
-            <a href='http://pineridgelandscaping.net'> (visit website)</a>
+            1. Beaver Dam Builders, LLC, Honey Brook, PA
           </span>
           <span className='partners__link'>
-            2. Beaver Dam Builders, LLC, Honey Brook, PA
+            2. Beiler Brothers Construction, Ronks, PA
           </span>
           <span className='partners__link'>
-            3. Beiler Brothers Construction, Ronks, PA
+            3. Forest View Construction, LLC New Holland, PA
           </span>
           <span className='partners__link'>
-            4. Forest View Construction, LLC New Holland, PA
+            4. Pinecraft Construction, LLC Leola, PA{' '}
+            <a href='https://pinecraftconstruction.com'>(visit website)</a>
           </span>
           <span className='partners__link'>
-            5. Pinecraft Construction, LLC Leola, PA
+            5. ADS Builders, LLC New Holland, PA
           </span>
           <span className='partners__link'>
-            6. ADS Builders, LLC New Holland, PA
+            6. New England Weathervanes, Willow Street, PA
+            <a href='https://newenglandweathervanes.com/'>(visit website)</a>
           </span>
           <span className='partners__link'>
-            7. New England Weathervanes, Willow Street, PA
+            7. Welsh View Farms, New Holland, PA 17557
+            <a href='https://www.ebay.com/str/backcountryfarmhatchingeggs'>
+              (visit website)
+            </a>
+          </span>
+          <span className='partners__link'>
+            8. Stoltzfus Masonry LLC, Ronks, PA
+          </span>
+          <span className='partners__link'>
+            9. Add Keystone Steel Structures LLC, Honey Brook, PA
+          </span>
+          <span className='partners__link'>
+            10. Elmer's Roofing, Lancaster, PA
+            <a href='https://www.elmersroofing.com/'>(visit website)</a>
+          </span>
+          <span className='partners__link'>
+            11. Precise Buildings LLC, Bird In Hand, PA
+            <a href='https://precisebuildings.com/'>(visit website)</a>
           </span>
           {/* <Partner_Card
             title='Pine Ridge Landscaping'
