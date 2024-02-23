@@ -81,14 +81,14 @@ function Header() {
             url='http://padutchcontractors.com'
           />
           <Card
-            title='AmericanItem'
-            image='/public/images/ebay.png'
-            url='https://www.ebay.com/sch/americanitem/m.html?_nkw=&_armrs=1&_ipg=&_from='
+            title='Back Country Farm Hatching Eggs'
+            image='/public/images/eggs.png'
+            url='https://www.ebay.com/str/backcountryfarmhatchingeggs'
           />
           <Card
             title="Billie's Antiques & Collectibles"
             image='/public/images/billies.png'
-            url='https://billies-antiques-collectibles.myshopify.com/'
+            url='http://www.ebaystores.com/billiesantiquesandcollectibles'
           />
           <Card
             title='Eagle Force Employment Services'

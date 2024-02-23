@@ -33,7 +33,7 @@ function Partners() {
           <Partner_Card
             title="Billie's Antiques & Collectibles"
             image='/public/images/billies.png'
-            url='https://billies-antiques-collectibles.myshopify.com/'
+            url='http://www.ebaystores.com/billiesantiquesandcollectibles'
           />
           <Partner_Card
             title='Billy Dean and the Woodland Girls'
