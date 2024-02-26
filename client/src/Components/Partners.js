@@ -45,6 +45,11 @@ function Partners() {
             image='/public/images/padutchcontractors.png'
             url='http://padutchcontractors.com'
           />
+          <Partner_Card
+            title='Back Country Farm Hatching Eggs'
+            image='/public/images/eggs.png'
+            url='https://www.ebay.com/str/backcountryfarmhatchingeggs'
+          />
         </div>
         <h1 className='partners__heading'>Our Partners</h1>
         <div className='partner-card-container'>
@@ -87,6 +92,9 @@ function Partners() {
           <span className='partners__link'>
             11. Precise Buildings LLC, Bird In Hand, PA
             <a href='https://precisebuildings.com/'>(visit website)</a>
+          </span>
+          <span className='partners__link'>
+            12. Mountain Laurel Contractors, LLC
           </span>
           {/* <Partner_Card
             title='Pine Ridge Landscaping'
