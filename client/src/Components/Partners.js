@@ -54,23 +54,23 @@ function Partners() {
         <h1 className='partners__heading'>Our Partners</h1>
         <div className='partner-card-container'>
           <span className='partners__link'>
-            1. Beaver Dam Builders, LLC, Honey Brook, PA
+            1. Beaver Dam Builders, LLC, Honey Brook, PA 19344
           </span>
           <span className='partners__link'>
-            2. Beiler Brothers Construction, Ronks, PA
+            2. Beiler Brothers Construction, Ronks, PA 17572
           </span>
           <span className='partners__link'>
-            3. Forest View Construction, LLC New Holland, PA
+            3. Forest View Construction, LLC New Holland, PA 17557
           </span>
           <span className='partners__link'>
-            4. Pinecraft Construction, LLC Leola, PA{' '}
+            4. Pinecraft Construction, LLC Leola, PA 17540
             <a href='https://pinecraftconstruction.com'>(visit website)</a>
           </span>
           <span className='partners__link'>
-            5. ADS Builders, LLC New Holland, PA
+            5. ADS Builders, LLC New Holland, PA 17557
           </span>
           <span className='partners__link'>
-            6. New England Weathervanes, Willow Street, PA
+            6. New England Weathervanes, Willow Street, PA 17584
             <a href='https://newenglandweathervanes.com/'>(visit website)</a>
           </span>
           <span className='partners__link'>
@@ -80,17 +80,17 @@ function Partners() {
             </a>
           </span>
           <span className='partners__link'>
-            8. Stoltzfus Masonry LLC, Ronks, PA
+            8. Stoltzfus Masonry LLC, Ronks, PA 17572
           </span>
           <span className='partners__link'>
-            9. Add Keystone Steel Structures LLC, Honey Brook, PA
+            9. Keystone Steel Structures LLC, Honey Brook, PA 19344
           </span>
           <span className='partners__link'>
-            10. Elmer's Roofing, Lancaster, PA
+            10. Elmer's Roofing, Lancaster, PA 17601
             <a href='https://www.elmersroofing.com/'>(visit website)</a>
           </span>
           <span className='partners__link'>
-            11. Precise Buildings LLC, Bird In Hand, PA
+            11. Precise Buildings LLC, Bird In Hand, PA 17505
             <a href='https://precisebuildings.com/'>(visit website)</a>
           </span>
           <span className='partners__link'>

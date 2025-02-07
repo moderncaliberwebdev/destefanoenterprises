@@ -6,12 +6,16 @@ import expresshttp from 'express-http-to-https'
 
 // Routes
 import routes from './routes/router.js'
+import expressNakedRedirect from 'express-naked-redirect'
 
 // server setup
 const app = express()
 const PORT = process.env.PORT || 3000
 app.use(express.json())
 dotenv.config()
+
+// URL Settings - redirect non-www to www and http to https
+app.use(expressNakedRedirect())
 
 const redirectToHTTPS = expresshttp.redirectToHTTPS
 app.use(redirectToHTTPS([/localhost:(\d{4})/], [/\/insecure/], 301))
